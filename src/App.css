@@ -1,5 +1,42 @@
 .App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 6.5rem;
+}
+
+.box{
+  padding:1em;
+}
+.balance{
+  text-align:center;
+}
+.notes{
   text-align: center;
+}
+.Buttons {
+  display: flex;
+  padding: 3rem;
+  justify-content: space-around;
+}
+
+.Buttons > button {
+  font-size: 1.5rem;
+  margin: 2rem;
+  width: 10rem;
+}
+
+.Form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.Form > button {
+  font-size: 1.5rem;
 }
 
 .App-logo {
