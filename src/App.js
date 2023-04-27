@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import { useState } from "react";
 // Importing the useSelector and useDispatch functions to select the required
